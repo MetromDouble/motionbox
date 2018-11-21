@@ -59,9 +59,9 @@ class Panel extends Component<IPanelProps, IPanelState> {
   }
 
   componentDidMount() {
-    if (cursor3D && cursor3D.mesh) {
+    if (cursor3D && cursor3D.object) {
       this.setState({
-        cursor3DPosition: { ...cursor3D.mesh.position },
+        cursor3DPosition: { ...cursor3D.object.position },
       });
     }
   }
@@ -73,9 +73,9 @@ class Panel extends Component<IPanelProps, IPanelState> {
   updatePosition() {
     const { x, y, z } = this.state.cursor3DPosition;
 
-    cursor3D.mesh.position.x = isNaN(Number(x)) ? cursor3D.mesh.position.x : Number(x);
-    cursor3D.mesh.position.y = isNaN(Number(y)) ? cursor3D.mesh.position.y : Number(y);
-    cursor3D.mesh.position.z = isNaN(Number(z)) ? cursor3D.mesh.position.z : Number(z);
+    cursor3D.object.position.x = isNaN(Number(x)) ? cursor3D.object.position.x : Number(x);
+    cursor3D.object.position.y = isNaN(Number(y)) ? cursor3D.object.position.y : Number(y);
+    cursor3D.object.position.z = isNaN(Number(z)) ? cursor3D.object.position.z : Number(z);
   }
 
   private _handlePositionChange = (field: ('x'|'y'|'z')) => (ev: React.ChangeEvent<HTMLInputElement>): void => {
