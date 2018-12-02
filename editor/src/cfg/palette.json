@@ -1,0 +1,17 @@
+{
+  "color-max-light": "#ffffff",
+  "color-min-light": "#000000",
+  "color-wet-asphalt": "#1d1d1d",
+  "color-asphalt": "#5e5e5e",
+  "color-steel": "#b7b7b7",
+  "color-wet-paper": "#dbdbee",
+  "color-paper": "#f3f3ff",
+  "color-primary": "#3F5088",
+  "color-primary-weak": "#6678b1",
+  "color-success": "#64a564",
+  "color-success-weak": "#82c182",
+  "color-danger": "#b84848",
+  "color-danger-weak": "#e57272",
+  "color-warning": "#d2d255",
+  "color-warning-weak": "#efef9a"
+}

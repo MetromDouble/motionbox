@@ -1,0 +1,37 @@
+{
+  "root": [
+    {
+      "name": "file",
+      "title": "File",
+      "children": [
+        {
+          "name": "new",
+          "title": "New"
+        },
+        {
+          "name": "open",
+          "title": "Open"
+        },
+        {
+          "name": "save",
+          "title": "Save"
+        }
+      ]
+    },
+    {
+      "name": "edit",
+      "title": "Edit",
+      "children": []
+    },
+    {
+      "name": "window",
+      "title": "Window",
+      "children": []
+    },
+    {
+      "name": "help",
+      "title": "Help",
+      "children": []
+    }
+  ]
+}
